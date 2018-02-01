@@ -43,3 +43,14 @@
 .projectDesc .tech {
   margin-top: 2rem;
 }
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttonContainer Button {
+  margin-left: 100px;
+  margin-right: 100px;
+}
