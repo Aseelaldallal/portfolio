@@ -1,0 +1,42 @@
+
+
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row
+}
+
+.home img{
+    height: 100vh;
+}
+
+.name {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 35vh;
+    margin-left: -100px;
+}
+
+.name h1 {
+    margin: 0px;
+    text-transform: uppercase;
+} 
+
+.about {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+
+.about p {
+    margin: 0.5rem;
+}
+
+.highlight {
+    font-weight: 500;
+}
