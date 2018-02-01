@@ -28,9 +28,9 @@ const Project = props => {
         </div>
       </div>
       <div className={classes.buttonContainer}>
-        <Button label="visit" />
+        <Button label="visit" link={props.visitLink} />
 
-        <Button label="github" />
+        <Button label="github" link={props.gitLink} />
       </div>
     </div>
   );
