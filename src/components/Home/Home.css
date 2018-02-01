@@ -38,5 +38,7 @@
 }
 
 .highlight {
-    font-weight: 500;
+    font-weight: 600;
+    /* color: #FFD04B; */
+    /* text-shadow: 0px 0px 1px rgba(0,0,0,0.5); */
 }
