@@ -12,11 +12,16 @@
 
 .project img {
   border: 2px solid orange;
+  width: 500px;
+}
+
+.spacer {
+  width: 50px;
 }
 
 .projectDesc {
   text-align: left;
-  max-width: 550px;
+  max-width: 500px;
   border: 2px solid black;
 }
 

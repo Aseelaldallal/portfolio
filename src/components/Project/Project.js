@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './Project.css';
 import Image from '../UI/Image/Image';
-// import burger from '../../assets/images/projectImages/burger.PNG';
 
 const Project = props => {
   let projectStyle = [];
@@ -13,7 +12,7 @@ const Project = props => {
   return (
     <div className={projectStyle.join(' ')}>
       <Image image={props.image} />
-
+      <div className={classes.spacer} />
       <div className={classes.projectDesc}>
         <h3>{props.title}</h3>
         <p>{props.description}</p>

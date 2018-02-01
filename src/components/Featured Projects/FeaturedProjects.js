@@ -22,6 +22,19 @@ const FeaturedProjects = () => {
         tech="React, Redux, Firebase"
         image="burger"
       />
+      <Project
+        title="Build A Burger"
+        description="Web App that allows registered users to build a burger and purchase it. Go ahead. Test it out!"
+        tech="React, Redux, Firebase"
+        image="burger"
+      />
+      <Project
+        alignPicRight
+        title="Build A Burger"
+        description="Web App that allows registered users to build a burger and purchase it. Go ahead. Test it out!"
+        tech="React, Redux, Firebase"
+        image="burger"
+      />
     </section>
   );
 };
