@@ -1,56 +1,39 @@
-
-
 .skills {
-    height: 500px;
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: 0 auto;
-    background-color: #e7e7e7;
-    /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
-
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-    font-size: inherit;
-    font-weight: 300;
+  font-size: inherit;
+  font-weight: 300;
 }
 
 .emph {
-    color:#0f7cd9;
-    
+  color: #0f7cd9;
 }
 
 .skillList {
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  /* border: 2px solid blue; */
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .skillList div {
-    border: 2px solid pink;
-    width: 400px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: left;
-}
-
-.skillList p {
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-.title {
-    font-weight: 500;
-}
-
-.text {
-    margin-left: 50px;
+  /* border: 2px solid pink; */
+  max-width: 370px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: left;
 }
