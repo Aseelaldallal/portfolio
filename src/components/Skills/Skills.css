@@ -9,19 +9,6 @@
   text-align: center;
 }
 
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: inherit;
-  font-weight: 300;
-}
-
-.emph {
-  color: #0f7cd9;
-}
-
 .skillList {
   /* border: 2px solid blue; */
   margin-top: 3rem;

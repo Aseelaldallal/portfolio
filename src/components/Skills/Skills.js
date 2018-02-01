@@ -1,16 +1,15 @@
 import React from 'react';
 import classes from './Skills.css';
 import Skill from './Skill/Skill';
+import Title from '../UI/Title/Title';
 
 const Skills = () => {
   return (
     <section className={classes.skills}>
-      <h2> My Skills </h2>
-      <h3>
-        {' '}
-        My main skill is my{' '}
-        <span className={classes.emph}>aptitude for learning</span>{' '}
-      </h3>
+      <Title
+        title="My Skills"
+        subheading="My main skill is my aptitude for learning."
+      />
       <div className={classes.skillList}>
         <div>
           <Skill
