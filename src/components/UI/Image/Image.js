@@ -4,7 +4,6 @@ import burger from '../../../assets/images/projectImages/burger.PNG';
 
 const Image = props => {
   let image = null;
-
   switch (props.image) {
     case 'burger':
       image = <img src={burger} alt="buildaburger" />;
