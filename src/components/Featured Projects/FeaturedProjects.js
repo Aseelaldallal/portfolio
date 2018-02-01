@@ -3,8 +3,6 @@ import React from 'react';
 // Components
 import Title from '../UI/Title/Title';
 import Project from '../Project/Project';
-// Images
-import burger from '../../assets/images/projectImages/burger.PNG';
 // Style
 import classes from './FeaturedProjects.css';
 
