@@ -1,0 +1,14 @@
+.NavBar {
+    height: 50px;
+    width: 100%;
+}
+
+.MenuItemList {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    height: 100%;
+    font-weight: 400;
+}
