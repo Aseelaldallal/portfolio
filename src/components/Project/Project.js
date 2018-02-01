@@ -12,7 +12,7 @@ const Project = props => {
   }
 
   return (
-    <Auxillary>
+    <div className={classes.projectContainer}>
       <div className={projectStyle.join(' ')}>
         <div className={classes.imgContainer}>
           <Image image={props.image} />
@@ -32,7 +32,7 @@ const Project = props => {
 
         <Button label="github" />
       </div>
-    </Auxillary>
+    </div>
   );
 };
 

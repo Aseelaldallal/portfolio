@@ -1,10 +1,15 @@
+.projectContainer {
+  /* border: 2px solid purple; */
+  margin-bottom: 8rem;
+}
+
 .project {
   /* border: 2px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 .reverse {
   flex-direction: row-reverse;
