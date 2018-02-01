@@ -1,6 +1,6 @@
 import React from 'react';
 import Auxillary from '../../../hoc/Auxillary/Auxillary';
-import burger from '../../../assets/images/projectImages/burger.PNG';
+import burger from '../../../assets/images/projectImages/burger2.PNG';
 
 const Image = props => {
   let image = null;

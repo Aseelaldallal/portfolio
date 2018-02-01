@@ -11,7 +11,9 @@ const Project = props => {
 
   return (
     <div className={projectStyle.join(' ')}>
-      <Image image={props.image} />
+      <div className={classes.imgContainer}>
+        <Image image={props.image} />
+      </div>
       <div className={classes.spacer} />
       <div className={classes.projectDesc}>
         <h3>{props.title}</h3>
