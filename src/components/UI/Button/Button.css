@@ -1,1 +1,17 @@
+.button {
+  width: 180px;
+  height: 40px;
+  font-size: inherit;
+  background-color: rgba(255, 209, 74, 1);
+  text-transform: capitalize;
+  outline: 0;
+  border: 0;
+}
 
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 209, 74, 0.85);
+  -webkit-box-shadow: 0px 0px 7px -4px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 7px -4px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 7px -4px rgba(0, 0, 0, 0.7);
+}
