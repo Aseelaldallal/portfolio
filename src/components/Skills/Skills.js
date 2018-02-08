@@ -5,7 +5,7 @@ import Title from '../UI/Title/Title';
 
 const Skills = () => {
   return (
-    <section className={classes.skills}>
+    <section className={classes.skills} id="skills">
       <Title
         title="My Skills"
         subheading="My main skill is my aptitude for learning."
