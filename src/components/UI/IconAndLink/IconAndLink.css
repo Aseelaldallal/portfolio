@@ -1,0 +1,20 @@
+.iconAndLink {
+  margin-bottom: 0.4rem;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.iconAndLink a i {
+  margin-right: 1.5rem;
+}
+
+.iconAndLink a,
+.iconAndLink a:visited,
+.iconAndLink a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.iconAndLink a:hover {
+  font-weight: 400;
+}
