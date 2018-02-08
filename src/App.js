@@ -3,6 +3,7 @@ import NavBar from './components/Navigation/NavBar/NavBar';
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
 import FeaturedProjects from './components/Featured Projects/FeaturedProjects';
+import CurrentProject from './components/CurrentProject/CurrentProject';
 import classes from './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Home />
         <Skills />
         <FeaturedProjects />
+        <CurrentProject />
       </div>
     );
   }

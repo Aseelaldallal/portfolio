@@ -28,9 +28,10 @@ const Project = props => {
         </div>
       </div>
       <div className={classes.buttonContainer}>
-        <Button label="visit" link={props.visitLink} />
-
         <Button label="github" link={props.gitLink} />
+        {props.visitLink ? (
+          <Button label="github" link={props.visitLink} />
+        ) : null}
       </div>
     </div>
   );
