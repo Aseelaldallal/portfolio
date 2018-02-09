@@ -8,7 +8,7 @@ import classes from './FeaturedProjects.css';
 
 const FeaturedProjects = () => {
   return (
-    <section className={classes.featuredProjects}>
+    <section id="projects" className={classes.featuredProjects}>
       <Title
         title="Featured Projects"
         subheading="Psst.. Checkout the github links for notes on how each app was developed."

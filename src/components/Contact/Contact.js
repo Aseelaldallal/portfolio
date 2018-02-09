@@ -8,7 +8,7 @@ import classes from './Contact.css';
 
 const Contact = () => {
   return (
-    <section className={classes.contact}>
+    <section id="contact" className={classes.contact}>
       <Title title="Let's Connect" subheading="Because why not?" />
       <div className={classes.contactInfo}>
         <IconAndLink
