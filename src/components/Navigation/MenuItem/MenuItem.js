@@ -6,7 +6,7 @@ const MenuItem = props => {
   return (
     <Link
       className={classes.menuItem}
-      activeClass="active"
+      activeClass={classes.active}
       to={props.to}
       spy={true}
       smooth={true}
