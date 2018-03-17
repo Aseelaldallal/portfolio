@@ -11,6 +11,13 @@
   background-color: #ffd14a;
 }
 
-.selectedItem {
+.active {
   background-color: #ffd14a;
+}
+
+@media (max-width: 499px) {
+  .menuItem {
+    text-align: left;
+    display: block;
+  }
 }

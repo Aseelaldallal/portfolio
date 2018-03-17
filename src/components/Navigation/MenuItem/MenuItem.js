@@ -1,16 +1,21 @@
-import React from 'react';
-import classes from './MenuItem.css';
+import React from "react";
+import { Link } from "react-scroll";
+import classes from "./MenuItem.css";
 
 const MenuItem = props => {
-  let itemStyles = [classes.menuItem];
-  if (props.selected) {
-    itemStyles.push(classes.selectedItem);
-  }
-  console.log(itemStyles.join(' '));
   return (
-    <a href={props.link ? props.link : '#'} className={itemStyles.join(' ')}>
+    <Link
+      className={classes.menuItem}
+      activeClass="active"
+      to={props.to}
+      spy={true}
+      smooth={true}
+      offset={-50}
+      duration={500}
+      onClick={props.clicked}
+    >
       {props.name}
-    </a>
+    </Link>
   );
 };
 

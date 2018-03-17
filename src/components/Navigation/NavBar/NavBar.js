@@ -1,18 +1,52 @@
-import React from 'react';
-import classes from './NavBar.css';
-import MenuItem from '../MenuItem/MenuItem';
+import React, { Component } from "react";
+import { Events, animateScroll as scroll, scrollSpy } from "react-scroll";
+import Auxillary from "../../../hoc/Auxillary/Auxillary";
+import MenuItem from "../MenuItem/MenuItem";
+import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle";
+import classes from "./NavBar.css";
 
-const NavBar = () => {
-  return (
-    <div className={classes.NavBar}>
-      <div className={classes.MenuItemList}>
-        <MenuItem name="Home" selected link="#home" />
-        <MenuItem name="Skills" link="#skills" />
-        <MenuItem name="Projects" link="#projects" />
-        <MenuItem name="Contact" link="#contact" />
-      </div>
-    </div>
-  );
-};
+class Navbar extends Component {
+  componentDidMount() {
+    Events.scrollEvent.register("begin", function(to, element) {});
+    Events.scrollEvent.register("end", function(to, element) {});
+    scrollSpy.update();
+  }
 
-export default NavBar;
+  componentWillUnmount() {
+    Events.scrollEvent.remove("begin");
+    Events.scrollEvent.remove("end");
+  }
+
+  scrollToTop() {
+    scroll.scrollToTop();
+  }
+
+  scrollToBottom() {
+    scroll.scrollToBottom();
+  }
+
+  scrollTo() {
+    scroll.scrollTo(100);
+  }
+
+  scrollMore() {
+    scroll.scrollMore(100);
+  }
+
+  render() {
+    return (
+      <Auxillary>
+        <DrawerToggle clicked={this.props.drawerToggleClicked} />
+        <div className={classes.NavBar}>
+          <div className={classes.menuItemsContainer}>
+            <MenuItem to="Test1" name="Test1" />
+            <MenuItem to="Test2" name="Test2" />
+            <MenuItem to="Test3" name="Test3" />
+          </div>
+        </div>
+      </Auxillary>
+    );
+  }
+}
+
+export default Navbar;
