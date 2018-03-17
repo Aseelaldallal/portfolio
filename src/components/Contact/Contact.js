@@ -1,14 +1,14 @@
 // React
-import React from 'react';
+import React from "react";
 // Components
-import Title from '../UI/Title/Title';
-import IconAndLink from '../UI/IconAndLink/IconAndLink';
+import Title from "../UI/Title/Title";
+import IconAndLink from "../UI/IconAndLink/IconAndLink";
 // Style
-import classes from './Contact.css';
+import classes from "./Contact.css";
 
 const Contact = () => {
   return (
-    <section id="contact" className={classes.contact}>
+    <section id="contact" className={classes.contact} id="Contact">
       <Title title="Let's Connect" subheading="Because why not?" />
       <div className={classes.contactInfo}>
         <IconAndLink

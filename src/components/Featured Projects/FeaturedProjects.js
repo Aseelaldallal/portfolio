@@ -1,14 +1,14 @@
 // React
-import React from 'react';
+import React from "react";
 // Components
-import Title from '../UI/Title/Title';
-import Project from '../Project/Project';
+import Title from "../UI/Title/Title";
+import Project from "../Project/Project";
 // Style
-import classes from './FeaturedProjects.css';
+import classes from "./FeaturedProjects.css";
 
 const FeaturedProjects = () => {
   return (
-    <section id="projects" className={classes.featuredProjects}>
+    <section id="projects" className={classes.featuredProjects} id="Projects">
       <Title
         title="Featured Projects"
         subheading="Psst.. Checkout the github links for notes on how each app was developed."

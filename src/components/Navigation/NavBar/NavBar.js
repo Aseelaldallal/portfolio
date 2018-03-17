@@ -39,9 +39,10 @@ class Navbar extends Component {
         <DrawerToggle clicked={this.props.drawerToggleClicked} />
         <div className={classes.NavBar}>
           <div className={classes.menuItemsContainer}>
-            <MenuItem to="Test1" name="Test1" />
-            <MenuItem to="Test2" name="Test2" />
-            <MenuItem to="Test3" name="Test3" />
+            <MenuItem to="Home" name="Home" />
+            <MenuItem to="Skills" name="Skills" />
+            <MenuItem to="Projects" name="Projects" />
+            <MenuItem to="Contact" name="Contact" />
           </div>
         </div>
       </Auxillary>

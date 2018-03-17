@@ -1,11 +1,11 @@
-import React from 'react';
-import classes from './Skills.css';
-import Skill from './Skill/Skill';
-import Title from '../UI/Title/Title';
+import React from "react";
+import classes from "./Skills.css";
+import Skill from "./Skill/Skill";
+import Title from "../UI/Title/Title";
 
 const Skills = () => {
   return (
-    <section className={classes.skills} id="skills">
+    <section className={classes.skills} id="Skills">
       <Title
         title="My Skills"
         subheading="My main skill is my aptitude for learning."

@@ -1,10 +1,10 @@
-import React from 'react';
-import classes from './Home.css';
-import profilePic from '../../assets/images/HomePic.jpg';
+import React from "react";
+import classes from "./Home.css";
+import profilePic from "../../assets/images/HomePic.jpg";
 
 const Home = () => {
   return (
-    <section className={classes.home}>
+    <section className={classes.home} id="Home">
       <img className={classes.image} alt="aseelpic" src={profilePic} />
       <div>
         <div className={classes.name}>
@@ -13,25 +13,25 @@ const Home = () => {
         </div>
         <div className={classes.about}>
           <p>
-            {' '}
+            {" "}
             <span className={classes.highlight}>
               Full Stack Developer.
-            </span>{' '}
-            Athlete. Humanitarian.{' '}
-            <span className={classes.highlight}>Innovator</span>{' '}
+            </span>{" "}
+            Athlete. Humanitarian.{" "}
+            <span className={classes.highlight}>Innovator</span>{" "}
           </p>
           <p>
-            {' '}
-            Adventurer. Reader.{' '}
+            {" "}
+            Adventurer. Reader.{" "}
             <span className={classes.highlight}>Hacker.</span> Animal Lover.
-            Teacher{' '}
+            Teacher{" "}
           </p>
           <p>
-            {' '}
+            {" "}
             <span className={classes.highlight}>
-              {' '}
-              Problem Solver.{' '}
-            </span> Foodie.{' '}
+              {" "}
+              Problem Solver.{" "}
+            </span> Foodie.{" "}
           </p>
         </div>
       </div>
