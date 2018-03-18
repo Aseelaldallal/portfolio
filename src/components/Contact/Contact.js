@@ -10,6 +10,9 @@ const Contact = () => {
   return (
     <section id="contact" className={classes.contact} id="Contact">
       <Title title="Let's Connect" subheading="Because why not?" />
+      <div className={classes.happy}>
+        <i class="fa fa-smile-o" aria-hidden="true" />
+      </div>
       <div className={classes.contactInfo}>
         <IconAndLink
           link="mailto:aseelaldallal@gmail.com"

@@ -39,10 +39,10 @@ class Navbar extends Component {
         <DrawerToggle clicked={this.props.drawerToggleClicked} />
         <div className={classes.NavBar}>
           <div className={classes.menuItemsContainer}>
-            <MenuItem to="Home" name="Home" />
-            <MenuItem to="Skills" name="Skills" />
-            <MenuItem to="Projects" name="Projects" />
-            <MenuItem to="Contact" name="Contact" />
+            <MenuItem to="Home" name="Home" offset={0} />
+            <MenuItem to="Skills" name="Skills" offset={0} />
+            <MenuItem to="Projects" name="Projects" offset={0} />
+            <MenuItem to="Contact" name="Contact" offset={-125} />
           </div>
         </div>
       </Auxillary>

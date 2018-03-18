@@ -10,7 +10,7 @@ const MenuItem = props => {
       to={props.to}
       spy={true}
       smooth={true}
-      offset={-50}
+      offset={props.offset}
       duration={500}
       onClick={props.clicked}
     >
